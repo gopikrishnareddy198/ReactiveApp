@@ -8,7 +8,7 @@ public class ValidationUtils {
 
     public static boolean isValidString(String id) {
         // Replace with actual validation logic (e.g., regex, length check)
-        return id != null && !id.trim().isEmpty();
+        return id == null || id.trim().isEmpty();
     }
 
     public static Mono<List<String>> validateRequestBody(List<String> list) {

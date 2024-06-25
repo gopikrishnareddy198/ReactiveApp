@@ -22,7 +22,7 @@ import java.util.stream.Collectors;
 @Slf4j
 public class ProcessRepairsService {
 
-    private  UploadService uploadService;
+    private final  UploadService uploadService;
 
     public ProcessRepairsService(UploadService uploadService) {
         this.uploadService = uploadService;

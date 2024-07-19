@@ -1,2 +1,4 @@
-package com.example.ReactiveApp.datastructures;public class DemoDs {
+package com.example.ReactiveApp.datastructures;
+
+public class DemoDs{
 }
